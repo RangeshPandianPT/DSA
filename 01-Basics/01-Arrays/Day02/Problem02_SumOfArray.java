@@ -29,21 +29,27 @@
 
 public class Problem02_SumOfArray {
     
-    // TODO: Implement this method to find sum
+
     public static int findSum(int[] arr) {
-        // Your code here
-        
-        return 0; // Placeholder
-    }
-    
-    // TODO: Implement this method to find average
-    public static double findAverage(int[] arr) {
-        // Your code here
-        // Hint: Use findSum() method and divide by length
-        // Be careful about integer division!
-        
-        return 0.0; // Placeholder
-    }
+      if (arr == null || arr.length == 0) {
+        return 0;
+}
+
+      int sum = 0;
+      for (int num : arr) {  // Enhanced for loop
+          sum += num;
+      }
+     return sum;
+  }
+  
+  public static double findAverage(int[] arr) {
+      if (arr == null || arr.length == 0) {
+          return 0.0;
+      }
+      
+      // Cast to double to avoid integer division
+      return (double) findSum(arr) / arr.length;
+  }
     
     // Main method to test your solution
     public static void main(String[] args) {
