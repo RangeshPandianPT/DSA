@@ -1,47 +1,48 @@
-# DSA (Data Structures and Algorithms)
+# 🚀 DSA Learning Journey - Java
 
-This repository is a structured collection of **Data Structures and Algorithms (DSA)** programs implemented in **C** and **Java**, organized to help learners strengthen their problem-solving and programming skills through hands-on coding practice.
+Welcome to your Data Structures & Algorithms journey! This repository is structured to help you master DSA with **2 daily problems** progressing from Easy to Advanced.
 
----
+## 📁 Structure
 
-## Repository Structure
+| Folder | Topics | Duration |
+|--------|--------|----------|
+| `01-Basics/` | Arrays, Strings, Math | Week 1-2 |
+| `02-Data-Structures/` | LinkedList, Stack, Queue, Trees, Graphs | Week 3-5 |
+| `03-Algorithms/` | Sorting, Searching, Two Pointers, Sliding Window | Week 6-8 |
+| `04-Advanced/` | DP, Backtracking, Greedy, Bit Manipulation | Week 9-12 |
+| `05-Problem-Solving/` | Daily Challenges & Contests | Ongoing |
 
-| Folder | Description |
-|--------|-------------|
-| **DSA_C/** | Contains C programs covering core data structures such as arrays, stacks, queues, linked lists, trees, graphs, sorting, and searching algorithms. |
-| **DSA_JAVA/** | Includes Java implementations of DSA problems, categorized by coding platforms like **HackerRank** and **LeetCode**. |
+## 📝 Daily Practice Rules
 
----
+1. **Solve 2 problems daily** - No exceptions!
+2. **Understand before coding** - Draw diagrams, trace examples
+3. **Write clean code** - Comments, meaningful names
+4. **Analyze complexity** - Time & Space for every solution
+5. **Track progress** - Update `PROGRESS.md` daily
 
-## Topics Covered
+## 🎯 Problem Template
 
-### Core Data Structures
-- Arrays  
-- Linked Lists (Singly, Doubly, Circular)  
-- Stacks & Queues  
-- Trees & Binary Search Trees  
-- Graphs  
-- Hashing  
+Each solution follows this format:
+```java
+/**
+ * Problem: [Name]
+ * Difficulty: Easy/Medium/Hard
+ * Topic: [Category]
+ * 
+ * Time Complexity: O(?)
+ * Space Complexity: O(?)
+ */
+```
 
-### Algorithms
-- Searching (Linear, Binary)  
-- Sorting (Bubble, Insertion, Selection, Merge, Quick)  
-- Recursion & Backtracking  
-- Dynamic Programming  
-- Greedy Algorithms  
+## 📚 Resources
 
----
+- [LeetCode](https://leetcode.com)
+- [GeeksforGeeks](https://geeksforgeeks.org)
+- [HackerRank](https://hackerrank.com)
+- [NeetCode Roadmap](https://neetcode.io/roadmap)
 
-## Platforms Practiced
+## 🏃 Getting Started
 
-### DSA_JAVA
-- **HackerRank/** – Solutions to DSA challenges from HackerRank  
-- **LeetCode/** – Java solutions to LeetCode problems, focusing on algorithmic thinking and optimization  
+Start with `01-Basics/01-Arrays/Day01/` - Your Day 1 problems are ready!
 
----
-
-## 🚀 Getting Started
-
-### Clone this repository
-```bash
-git clone https://github.com/RangeshPandianPT/DSA.git
+**Happy Coding! 💪**
