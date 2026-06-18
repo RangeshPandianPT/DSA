@@ -2,25 +2,26 @@
 
 ## Current Status
 - **Start Date:** February 2, 2026
-- **Current Day:** Day 1
-- **Problems Solved:** 0
-- **Current Topic:** Arrays
+- **Current Day:** Day 15
+- **Problems Solved:** 12
+- **Current Topic:** Linked Lists
 
 ---
 
 ## Daily Log
 
-### Week 1: Arrays Basics
+### Week 1-2: Arrays, Strings, and Linked Lists
 
 | Day | Date | Topic | Problem 1 | Problem 2 | Status |
 |-----|------|-------|-----------|-----------|--------|
-| 1 | Feb 02 | Arrays | Find Maximum | Find Minimum | ⬜ |
-| 2 | Feb 03 | Arrays | Reverse Array | Rotate Array | ⬜ |
-| 3 | Feb 04 | Arrays | Find Duplicates | Remove Duplicates | ⬜ |
-| 4 | Feb 05 | Strings | Reverse String | Check Palindrome | ⬜ |
-| 5 | Feb 06 | Strings | Valid Anagram | First Unique Char | ⬜ |
-| 6 | Feb 07 | Strings | Longest Common Prefix | String Compression | ⬜ |
-| 7 | Feb 08 | Math | Check Prime | GCD/LCM | ⬜ |
+| 1 | Feb 02 | Arrays | Find Maximum | Find Minimum | ✅ |
+| 2 | Feb 03 | Arrays | Sum of Array | Two Sum | ✅ |
+| 3 | Feb 04 | Arrays | Max Profit | Max SubArray | ✅ |
+| 4 | Feb 05 | Arrays | Product Except Self | Contains Duplicate | ✅ |
+| 5 | Feb 06 | Strings | Valid Anagram | Check Palindrome | ✅ |
+| 6 | Feb 07 | Linked List | Middle Node | Merge Two Nodes | ✅ |
+| 7 | Feb 08 | Linked List | Linked List Cycle | Intersection List | ✅ |
+| 8 | Feb 09 | Linked List | Add Two Numbers | Reverse Linked List| ✅ |
 
 **Legend:** ⬜ Pending | 🟡 In Progress | ✅ Completed
 
@@ -30,7 +31,8 @@
 
 | Week | Problems Completed | Accuracy | Notes |
 |------|-------------------|----------|-------|
-| 1 | 0/14 | - | Starting |
+| 1 | 8/14 | - | Finished Basics |
+| 2 | 4/14 | - | Moving through LeetCode |
 
 ---
 

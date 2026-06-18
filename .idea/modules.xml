@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01-Basics/01-Basics.iml" filepath="$PROJECT_DIR$/01-Basics/01-Basics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-Algorithms/03-Algorithms.iml" filepath="$PROJECT_DIR$/03-Algorithms/03-Algorithms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-Advanced/04-Advanced.iml" filepath="$PROJECT_DIR$/04-Advanced/04-Advanced.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DSA.iml" filepath="$PROJECT_DIR$/DSA.iml" />
+    </modules>
+  </component>
+</project>

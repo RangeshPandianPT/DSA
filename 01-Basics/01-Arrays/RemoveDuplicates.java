@@ -1,6 +1,5 @@
 import java.util.Arrays;
-
-public class RemoveDuplicates {
+class RemoveDuplicates {
 
     public int removeDuplicates(int[] nums) {
         int x = 0;

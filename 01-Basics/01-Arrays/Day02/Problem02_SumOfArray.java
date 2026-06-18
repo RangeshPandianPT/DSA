@@ -30,12 +30,12 @@
 public class Problem02_SumOfArray {
     
 
-    public static int findSum(int[] arr) {
+    public static long findSum(int[] arr) {
       if (arr == null || arr.length == 0) {
         return 0;
 }
 
-      int sum = 0;
+      long sum = 0;
       for (int num : arr) {  // Enhanced for loop
           sum += num;
       }

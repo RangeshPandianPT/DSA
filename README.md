@@ -1,48 +1,34 @@
-# 🚀 DSA Learning Journey - Java
+# 📂 Problem Solving
 
-Welcome to your Data Structures & Algorithms journey! This repository is structured to help you master DSA with **2 daily problems** progressing from Easy to Advanced.
+Practice area for daily challenges and contest problems.
 
-## 📁 Structure
+## Folders
 
-| Folder | Topics | Duration |
-|--------|--------|----------|
-| `01-Basics/` | Arrays, Strings, Math | Week 1-2 |
-| `02-Data-Structures/` | LinkedList, Stack, Queue, Trees, Graphs | Week 3-5 |
-| `03-Algorithms/` | Sorting, Searching, Two Pointers, Sliding Window | Week 6-8 |
-| `04-Advanced/` | DP, Backtracking, Greedy, Bit Manipulation | Week 9-12 |
-| `05-Problem-Solving/` | Daily Challenges & Contests | Ongoing |
+### Daily-Challenges/
+Store problems from daily LeetCode, HackerRank challenges.
 
-## 📝 Daily Practice Rules
+### Contest-Problems/
+Save interesting contest problems for review.
 
-1. **Solve 2 problems daily** - No exceptions!
-2. **Understand before coding** - Draw diagrams, trace examples
-3. **Write clean code** - Comments, meaningful names
-4. **Analyze complexity** - Time & Space for every solution
-5. **Track progress** - Update `PROGRESS.md` daily
+## Naming Convention
+```
+YYYY-MM-DD_ProblemName.java
 
-## 🎯 Problem Template
-
-Each solution follows this format:
-```java
-/**
- * Problem: [Name]
- * Difficulty: Easy/Medium/Hard
- * Topic: [Category]
- * 
- * Time Complexity: O(?)
- * Space Complexity: O(?)
- */
+Example:
+2026-02-02_TwoSum.java
+2026-02-03_ValidParentheses.java
 ```
 
-## 📚 Resources
+## Problem Solving Tips
 
-- [LeetCode](https://leetcode.com)
-- [GeeksforGeeks](https://geeksforgeeks.org)
-- [HackerRank](https://hackerrank.com)
-- [NeetCode Roadmap](https://neetcode.io/roadmap)
+1. **Read carefully** - Understand constraints
+2. **Examples first** - Trace through examples manually
+3. **Brute force** - Get a working solution first
+4. **Optimize** - Improve time/space complexity
+5. **Edge cases** - Empty input, single element, large numbers
+6. **Test** - Run multiple test cases
 
-## 🏃 Getting Started
-
-Start with `01-Basics/01-Arrays/Day01/` - Your Day 1 problems are ready!
-
-**Happy Coding! 💪**
+## Useful Resources
+- [LeetCode Discuss](https://leetcode.com/discuss/)
+- [NeetCode YouTube](https://youtube.com/@NeetCode)
+- [take U forward](https://youtube.com/@takeUforward)
