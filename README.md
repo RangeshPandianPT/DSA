@@ -28,7 +28,3 @@ Example:
 5. **Edge cases** - Empty input, single element, large numbers
 6. **Test** - Run multiple test cases
 
-## Useful Resources
-- [LeetCode Discuss](https://leetcode.com/discuss/)
-- [NeetCode YouTube](https://youtube.com/@NeetCode)
-- [take U forward](https://youtube.com/@takeUforward)
