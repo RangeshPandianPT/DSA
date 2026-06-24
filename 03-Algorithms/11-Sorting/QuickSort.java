@@ -1,45 +1,38 @@
+package Recursion;
+
 import java.util.Arrays;
 
 public class QuickSort {
-    public static void sort(int[] arr, int low, int high) {
-        if (low < high) {
-            // pi is partitioning index, arr[p] is now at right place
-            int pi = partition(arr, low, high);
-
-            // Separately sort elements before partition and after partition
-            sort(arr, low, pi - 1);
-            sort(arr, pi + 1, high);
-        }
+    public static void main(String[] args) {
+    int [] arr = {5,4,3,2,1};
+    quickSort(arr,0,arr.length-1);
+    System.out.println(Arrays.toString(arr));
     }
+    static void quickSort(int[] arr,int low,int high){
+        if (low>=high){
+            return;
+        }
+        int s = low;
+        int e = high;
+        int m = s + (e-s)/2;
+        int pivot = arr[m];
 
-    private static int partition(int[] arr, int low, int high) {
-        // pivot
-        int pivot = arr[high];
-
-        // Index of smaller element and indicates the right position of pivot found so far
-        int i = (low - 1);
-
-        for (int j = low; j <= high - 1; j++) {
-            // If current element is smaller than the pivot
-            if (arr[j] < pivot) {
-                i++; // increment index of smaller element
-                swap(arr, i, j);
+        while (s<=e){
+            while (arr[s]<pivot){
+                s++;
+            }
+            while (arr[e]>pivot){
+                e--;
+            }
+            if (s<=e){
+                int temp = arr[s];
+                arr[s] = arr[e];
+                arr[e] = temp;
+                s++;
+                e--;
             }
         }
-        swap(arr, i + 1, high);
-        return (i + 1);
-    }
-
-    private static void swap(int[] arr, int i, int j) {
-        int temp = arr[i];
-        arr[i] = arr[j];
-        arr[j] = temp;
-    }
-
-    public static void main(String[] args) {
-        int[] arr = {10, 7, 8, 9, 1, 5};
-        System.out.println("Original array: " + Arrays.toString(arr));
-        sort(arr, 0, arr.length - 1);
-        System.out.println("Sorted array: " + Arrays.toString(arr));
+        quickSort(arr,low,e);
+        quickSort(arr,s,high);
     }
 }
