@@ -2,9 +2,9 @@
 
 ## Current Status
 - **Start Date:** February 2, 2026
-- **Current Day:** Day 15
-- **Problems Solved:** 20
-- **Current Topic:** Stacks, Queues, Binary Search & Sorting
+- **Current Day:** Day 16
+- **Problems Solved:** 24
+- **Current Topic:** Trees, Graphs & Dynamic Programming
 
 ---
 
@@ -30,6 +30,18 @@
 | 14 | Feb 15 | Sorting | Merge Sort | Cyclic Sort | ✅ |
 | 15 | Feb 16 | Review & Prep | Complexity Analysis | System Specs | ✅ |
 
+### Week 3: Trees, Graphs, Hash Tables & Dynamic Programming
+
+| Day | Date | Topic | Problem 1 | Problem 2 | Status |
+|-----|------|-------|-----------|-----------|--------|
+| 16 | Feb 17 | Trees | Invert Binary Tree | Maximum Depth of Binary Tree | ✅ |
+| 17 | Feb 18 | Graphs | Number of Islands | Graph DFS & BFS Review | 🟡 |
+| 18 | Feb 19 | Dynamic Programming | Climbing Stairs | Fibonacci Tabulation | 🟡 |
+| 19 | Feb 20 | Two Pointers | Two Sum II (Sorted) | Palindrome Check | ⬜ |
+| 20 | Feb 21 | Sliding Window | Max Sum Subarray of Size K | Min Subarray Len | ⬜ |
+| 21 | Feb 22 | Challenge Review | LeetCode Daily Challenge | Contest Setup | ⬜ |
+| 22 | Feb 23 | Weekly Synthesis | Mock Interview Practice | Repo Optimization | ⬜ |
+
 **Legend:** ⬜ Pending | 🟡 In Progress | ✅ Completed
 
 ---
@@ -40,6 +52,7 @@
 |------|-------------------|----------|-------|
 | 1 | 10/14 | 100% | Arrays & Strings Basics completed |
 | 2 | 10/14 | 100% | Linked Lists, Stacks, Searching & Sorting patterns |
+| 3 | 4/14 | 100% | Started Trees (Invert, Max Depth), Graphs (Islands), and DP (Climbing Stairs) |
 
 ---
 
@@ -50,6 +63,12 @@
 
 ### Fast & Slow Pointers:
 - Used in `PalindromeLinkedList.java` to locate the mid-point of a singly linked list in O(N) time and O(1) space.
+
+### Tree Inversion & Traversals:
+- Recursive DFS swaps left and right child pointers at each node in O(N) time. Iterative level-order queue achieves the same in O(N) space.
+
+### 1D Dynamic Programming:
+- In `ClimbingStairs.java`, space complexity can be optimized from O(N) array tabulation to O(1) using just two state variables tracking the last two steps.
 
 ---
 
