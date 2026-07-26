@@ -1,4 +1,4 @@
-public class FindMissPositive {
+public class FirstMissPositive {
     public int firstMissingPositive(int[] nums) {
         int i = 0;
 
