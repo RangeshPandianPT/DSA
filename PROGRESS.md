@@ -2,8 +2,8 @@
 
 ## Current Status
 - **Start Date:** February 2, 2026
-- **Current Day:** Day 16
-- **Problems Solved:** 24
+- **Current Day:** Day 19
+- **Problems Solved:** 30
 - **Current Topic:** Trees, Graphs & Dynamic Programming
 
 ---
@@ -35,9 +35,9 @@
 | Day | Date | Topic | Problem 1 | Problem 2 | Status |
 |-----|------|-------|-----------|-----------|--------|
 | 16 | Feb 17 | Trees | Invert Binary Tree | Maximum Depth of Binary Tree | ✅ |
-| 17 | Feb 18 | Graphs | Number of Islands | Graph DFS & BFS Review | 🟡 |
-| 18 | Feb 19 | Dynamic Programming | Climbing Stairs | Fibonacci Tabulation | 🟡 |
-| 19 | Feb 20 | Two Pointers | Two Sum II (Sorted) | Palindrome Check | ⬜ |
+| 17 | Feb 18 | Graphs | Number of Islands | Graph DFS & BFS Review | ✅ |
+| 18 | Feb 19 | Dynamic Programming | Climbing Stairs | Fibonacci Tabulation | ✅ |
+| 19 | Feb 20 | Two Pointers | Two Sum II (Sorted) | Palindrome Check | ✅ |
 | 20 | Feb 21 | Sliding Window | Max Sum Subarray of Size K | Min Subarray Len | ⬜ |
 | 21 | Feb 22 | Challenge Review | LeetCode Daily Challenge | Contest Setup | ⬜ |
 | 22 | Feb 23 | Weekly Synthesis | Mock Interview Practice | Repo Optimization | ⬜ |
@@ -52,7 +52,7 @@
 |------|-------------------|----------|-------|
 | 1 | 10/14 | 100% | Arrays & Strings Basics completed |
 | 2 | 10/14 | 100% | Linked Lists, Stacks, Searching & Sorting patterns |
-| 3 | 4/14 | 100% | Started Trees (Invert, Max Depth), Graphs (Islands), and DP (Climbing Stairs) |
+| 3 | 10/14 | 100% | Completed Trees, Graphs (Islands), DP, and Two Pointers |
 
 ---
 
