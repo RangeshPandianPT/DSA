@@ -38,7 +38,7 @@
 | 17 | Feb 18 | Graphs | Number of Islands | Graph DFS & BFS Review | ✅ |
 | 18 | Feb 19 | Dynamic Programming | Climbing Stairs | Fibonacci Tabulation | ✅ |
 | 19 | Feb 20 | Two Pointers | Two Sum II (Sorted) | Palindrome Check | ✅ |
-| 20 | Feb 21 | Sliding Window | Max Sum Subarray of Size K | Min Subarray Len | ⬜ |
+| 20 | Feb 21 | Sliding Window | Max Sum Subarray of Size K | Min Subarray Len | ✅ |
 | 21 | Feb 22 | Challenge Review | LeetCode Daily Challenge | Contest Setup | ⬜ |
 | 22 | Feb 23 | Weekly Synthesis | Mock Interview Practice | Repo Optimization | ⬜ |
 
