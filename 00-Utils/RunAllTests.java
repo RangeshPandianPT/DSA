@@ -52,13 +52,32 @@ public class RunAllTests {
         TestRunner.assertEquals("Number of Islands (Grid 1)", 1, NumberOfIslands.numIslands(grid1));
         TestRunner.endSuite();
 
-        // Test 4: Dynamic Programming
-        TestRunner.startSuite("Dynamic Programming Solutions");
+        // Test 4: 1D Dynamic Programming Solutions
+        TestRunner.startSuite("1D Dynamic Programming (Climbing Stairs & Fibonacci)");
         TestRunner.assertEquals("Climbing Stairs (n = 2)", 2, ClimbingStairs.climbStairs(2));
         TestRunner.assertEquals("Climbing Stairs (n = 3)", 3, ClimbingStairs.climbStairs(3));
         TestRunner.assertEquals("Climbing Stairs (n = 5)", 8, ClimbingStairs.climbStairs(5));
+        TestRunner.assertEquals("Fibonacci Tabulation (n = 6)", 8, Fibonacci.fib(6));
         TestRunner.endSuite();
 
-        System.out.println("🎉 MASTER TEST SUITE FINISHED SUCCESSFUL EXECUTION! 🎉");
+        // Test 5: Advanced Dynamic Programming Solutions (Coin Change & House Robber)
+        TestRunner.startSuite("Advanced Dynamic Programming Patterns");
+        TestRunner.assertEquals("Coin Change [1,2,5] target 11", 3, CoinChange.coinChange(new int[]{1, 2, 5}, 11));
+        TestRunner.assertEquals("Coin Change [2] target 3 (unreachable)", -1, CoinChange.coinChange(new int[]{2}, 3));
+        TestRunner.assertEquals("Coin Change [1] target 0", 0, CoinChange.coinChange(new int[]{1}, 0));
+        TestRunner.assertEquals("House Robber [1, 2, 3, 1]", 4, HouseRobber.rob(new int[]{1, 2, 3, 1}));
+        TestRunner.assertEquals("House Robber [2, 7, 9, 3, 1]", 12, HouseRobber.rob(new int[]{2, 7, 9, 3, 1}));
+        TestRunner.assertEquals("House Robber Tabulation [2, 7, 9, 3, 1]", 12, HouseRobber.robWithDPArray(new int[]{2, 7, 9, 3, 1}));
+        TestRunner.endSuite();
+
+        // Test 6: Competitive Programming / Contest Problem
+        TestRunner.startSuite("Contest Simulation (Special Array)");
+        TestRunner.assertEquals("Special Array [3, 5]", 2, WeeklyContest_SpecialArray.specialArray(new int[]{3, 5}));
+        TestRunner.assertEquals("Special Array [0, 0]", -1, WeeklyContest_SpecialArray.specialArray(new int[]{0, 0}));
+        TestRunner.assertEquals("Special Array [0, 4, 3, 0, 4]", 3, WeeklyContest_SpecialArray.specialArray(new int[]{0, 4, 3, 0, 4}));
+        TestRunner.assertEquals("Special Array Binary Search [0, 4, 3, 0, 4]", 3, WeeklyContest_SpecialArray.specialArrayBinarySearch(new int[]{0, 4, 3, 0, 4}));
+        TestRunner.endSuite();
+
+        System.out.println("🎉 ALL TEST SUITES EXECUTED WITH FULL VERIFICATION! 🎉");
     }
 }
