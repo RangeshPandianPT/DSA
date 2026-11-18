@@ -2,9 +2,9 @@
 
 ## Current Status
 - **Start Date:** February 2, 2026
-- **Current Day:** Day 19
-- **Problems Solved:** 30
-- **Current Topic:** Trees, Graphs & Dynamic Programming
+- **Current Day:** Day 22 (Week 3 Completed ✅)
+- **Problems Solved:** 34
+- **Current Topic:** Dynamic Programming, Contest Simulation & Master Verification
 
 ---
 
@@ -39,8 +39,18 @@
 | 18 | Feb 19 | Dynamic Programming | Climbing Stairs | Fibonacci Tabulation | ✅ |
 | 19 | Feb 20 | Two Pointers | Two Sum II (Sorted) | Palindrome Check | ✅ |
 | 20 | Feb 21 | Sliding Window | Max Sum Subarray of Size K | Min Subarray Len | ✅ |
-| 21 | Feb 22 | Challenge Review | LeetCode Daily Challenge | Contest Setup | ⬜ |
-| 22 | Feb 23 | Weekly Synthesis | Mock Interview Practice | Repo Optimization | ⬜ |
+| 21 | Feb 22 | Challenge Review | Coin Change (LeetCode 322) | Contest Simulation (Special Array) | ✅ |
+| 22 | Feb 23 | Weekly Synthesis | House Robber (LeetCode 198) | Master Test Suite & Repo Optimization | ✅ |
+
+### Week 4: Heaps, Advanced Graphs & Backtracking (Upcoming Preview)
+
+| Day | Date | Topic | Problem 1 | Problem 2 | Status |
+|-----|------|-------|-----------|-----------|--------|
+| 23 | Feb 24 | Heaps / Priority Queue | Kth Largest Element | Merge K Sorted Lists | ⬜ |
+| 24 | Feb 25 | Graph Algorithms | Dijkstra's Shortest Path | Disjoint Set Union (Union-Find) | ⬜ |
+| 25 | Feb 26 | Topological Sort | Course Schedule I | Course Schedule II | ⬜ |
+| 26 | Feb 27 | Backtracking | Subsets (Power Set) | Permutations | ⬜ |
+| 27 | Feb 28 | Backtracking / DP | Combination Sum | Longest Common Subsequence | ⬜ |
 
 **Legend:** ⬜ Pending | 🟡 In Progress | ✅ Completed
 
@@ -52,7 +62,8 @@
 |------|-------------------|----------|-------|
 | 1 | 10/14 | 100% | Arrays & Strings Basics completed |
 | 2 | 10/14 | 100% | Linked Lists, Stacks, Searching & Sorting patterns |
-| 3 | 10/14 | 100% | Completed Trees, Graphs (Islands), DP, and Two Pointers |
+| 3 | 14/14 | 100% | Trees, Graphs, Advanced DP (Coin Change, House Robber), Two Pointers & Contest Setup |
+| **Total** | **34 Solved** | **100%** | **Comprehensive unit tests integrated in `RunAllTests.java`** |
 
 ---
 
@@ -69,6 +80,13 @@
 
 ### 1D Dynamic Programming:
 - In `ClimbingStairs.java`, space complexity can be optimized from O(N) array tabulation to O(1) using just two state variables tracking the last two steps.
+- In `HouseRobber.java` (LeetCode 198), recurrence `dp[i] = max(dp[i-1], dp[i-2] + nums[i])` is optimized to O(1) space using `prev1` and `prev2`.
+
+### Unbounded Knapsack (Coin Change):
+- In `CoinChange.java` (LeetCode 322), the state `dp[i]` represents minimum coins to form amount `i`. Inner coin loop builds solutions bottom-up in O(amount * n) time.
+
+### Contest Counting / Suffix Array Pattern:
+- In `WeeklyContest_SpecialArray.java` (LeetCode 1608), counting elements equal to or exceeding candidate `x` enables solving in O(N) linear time via suffix sums rather than brute force O(N^2).
 
 ---
 
